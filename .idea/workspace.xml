@@ -4,24 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c29d32-09d4-4765-a64a-3ee4c82c255c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/Bonus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BonusTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestExample.java" afterDir="false" />
+    <list default="true" id="75c29d32-09d4-4765-a64a-3ee4c82c255c" name="Changes" comment="Spring tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/models/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/resources/ProductResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/services/RequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductResourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RequestServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/victor/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/victor/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/victor/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/victor/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/victor/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/victor/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BonusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,30 +58,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/v/prog/IdeaProjects/santander-coders-tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;dce22392d9b9e082cd2fc7f72b629497&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductServiceTest.findProductByIdTest">
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IntegrationProductTest">
+    <configuration name="BonusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="santander-coders-tests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="BonusTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="santander-coders-tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationProductTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,30 +109,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceTest.findProductByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="santander-coders-tests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductServiceTest" />
-      <option name="METHOD_NAME" value="findProductByIdTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="santander-coders-tests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestExample" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExample.testMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest.seleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="santander-coders-tests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestExample" />
-      <option name="METHOD_NAME" value="testMock" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="seleniumTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductServiceTest.findProductByIdTest" />
+        <item itemvalue="JUnit.IntegrationProductTest" />
+        <item itemvalue="JUnit.BonusTest" />
         <item itemvalue="JUnit.ProductServiceTest" />
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.TestExample" />
-        <item itemvalue="JUnit.TestExample.testMock" />
+        <item itemvalue="JUnit.SeleniumTest.seleniumTest" />
+        <item itemvalue="JUnit.SeleniumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,11 +146,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671762656881</updated>
-      <workItem from="1671762658042" duration="5168000" />
+      <workItem from="1671762658042" duration="5362000" />
+      <workItem from="1671801175137" duration="3680000" />
+      <workItem from="1671804893994" duration="47000" />
+      <workItem from="1671805141428" duration="7380000" />
+      <workItem from="1671814662913" duration="352000" />
+      <workItem from="1671816291891" duration="78000" />
+      <workItem from="1671816585248" duration="211000" />
     </task>
+    <task id="LOCAL-00001" summary="Spring tests">
+      <created>1671768952684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671768952685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring tests" />
   </component>
 </project>
