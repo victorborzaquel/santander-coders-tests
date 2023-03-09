@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c29d32-09d4-4765-a64a-3ee4c82c255c" name="Changes" comment="Spring tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/models/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/resources/ProductResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/victor/services/RequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductResourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RequestServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
+    <list default="true" id="75c29d32-09d4-4765-a64a-3ee4c82c255c" name="Changes" comment="Selenium Test">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/victor/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/victor/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/victor/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/victor/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/victor/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/victor/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BonusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +139,9 @@
       <workItem from="1671814662913" duration="352000" />
       <workItem from="1671816291891" duration="78000" />
       <workItem from="1671816585248" duration="211000" />
+      <workItem from="1671816802829" duration="40000" />
+      <workItem from="1671818088592" duration="360000" />
+      <workItem from="1671834956511" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="Spring tests">
       <created>1671768952684</created>
@@ -161,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671768952685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Selenium Test">
+      <created>1671816832731</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671816832731</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring tests" />
+    <MESSAGE value="Selenium Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Test" />
   </component>
 </project>
